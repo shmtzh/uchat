@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UChat</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="request_permission">ROLR needs camera permission.</string>
+    <string name="camera_error">Camera Error</string>
+    <string name="input_form_hint">Введите текст сообщения</string>
+    <string name="permissions_denied">Unfortunately, the application can not work without granted permits</string>
+    <string name="ask_permissons">Grant</string>
+    <string name="shoot">shoot!</string>
+    <string name="sms">Сообщение</string>
+    <string name="camera">Камера</string>
+    <string name="album">Фотоальбом</string>
+    <string name="geo">Геолокация</string>
+</resources>

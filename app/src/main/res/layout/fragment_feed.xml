@@ -1,0 +1,78 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.roket.shmtzh.uchat.activity.FeedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_float"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        fab:menu_backgroundColor="#9bffffff"
+        fab:menu_colorNormal="@color/FabColor"
+        fab:menu_colorPressed="@color/FabColorPressed"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/ic_add_black_24dp"
+        fab:menu_labels_style="@style/YourCustomLabelsStyle">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/feed_location_button"
+            style="@style/MenuButtons"
+            android:src="@drawable/ic_near_me_black_24dp"
+            fab:fab_label="@string/geo" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/feed_album_button"
+            style="@style/MenuButtons"
+            android:src="@drawable/ic_perm_media_black_24dp"
+            fab:fab_label="@string/album" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/feed_camera_button"
+            style="@style/MenuButtons"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            fab:fab_label="@string/camera" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/feed_message_button"
+            style="@style/MenuButtons"
+            android:src="@drawable/ic_sms_black_24dp"
+            fab:fab_label="@string/sms" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.roket.shmtzh.uchat.view.MessagingEditText
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:drawablePadding="40dp"
+            android:hint="@string/input_form_hint"
+            android:imeOptions="actionDone"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#80797b89</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="SnackbarErrorColor">#432432</color>
+    <color name="SnackbarPositiveColor">#543243</color>
+    <color name="FabColor">#FF9800</color>
+    <color name="black">#000000</color>
+    <color name="FabColorPressed">#ff3c00</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+</resources>
